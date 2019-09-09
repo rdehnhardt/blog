@@ -20,12 +20,4 @@ class ContainerServiceProvider extends SkeletonServiceProvider
      * @var string
      */
     protected $namespace = __NAMESPACE__;
-
-    /**
-     * Service Boot.
-     */
-    public function boot()
-    {
-        parent::boot();
-    }
 }

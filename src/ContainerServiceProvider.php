@@ -9,15 +9,23 @@ class ContainerServiceProvider extends SkeletonServiceProvider
     /**
      * @var string
      */
-    protected $name = 'container';
-
-    /**
-     * @var string
-     */
     protected $directory = __DIR__;
 
     /**
      * @var string
      */
+    protected $name = 'container';
+
+    /**
+     * @var string
+     */
     protected $namespace = __NAMESPACE__;
+
+    /**
+     * Service Boot.
+     */
+    public function boot()
+    {
+        parent::boot();
+    }
 }

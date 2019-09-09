@@ -1,25 +1,25 @@
 {
-    "name": "rdehnhardt/container",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Renato Dehnhardt",
-            "email": "renatotkd@gmail.com"
-        }
-    ],
-    "require": {
-        "rdehnhardt/skeleton": "dev-master"
-    },
-    "autoload": {
-        "psr-4": {
-            "Skeleton\\Container": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Skeleton\\Container\\ContainerServiceProvider"
-            ]
-        }
+  "name": "rdehnhardt/container",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Renato Dehnhardt",
+      "email": "renatotkd@gmail.com"
     }
+  ],
+  "require": {
+    "rdehnhardt/skeleton": "6.0.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Skeleton\\Container\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Skeleton\\Container\\ContainerServiceProvider"
+      ]
+    }
+  }
 }

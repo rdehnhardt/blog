@@ -1,8 +1,7 @@
 <?php
 
-namespace Blog\Providers;
+namespace Blog;
 
-use Porto\Foundation\Facades\Porto;
 use Porto\Support\PortoServiceProvider;
 
 class BlogServiceProvider extends PortoServiceProvider

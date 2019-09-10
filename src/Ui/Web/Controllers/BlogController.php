@@ -2,9 +2,9 @@
 
 namespace Blog\Ui\Web\Controllers;
 
-use App\Http\Controllers\Controller;
+use Skeleton\Parents\Routing\Controller;
 
-class ContainerController extends Controller
+class BlogController extends Controller
 {
     public function index()
     {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Skeleton\Container\Models;
+namespace Blog\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

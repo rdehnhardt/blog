@@ -1,10 +1,7 @@
 <?php
 
-namespace Skeleton\Container\Ui\Cli\Commands;
+namespace Blog\Ui\Cli\Commands;
 
-use App\Core\Models\Subscriber;
-use App\Core\Repository\SubscribersRepository;
-use App\Front\Events\SubscriberWasCreated;
 use Illuminate\Console\Command;
 
 class ContainerCommand extends Command

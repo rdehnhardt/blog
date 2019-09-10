@@ -1,13 +1,13 @@
 <?php
 
-namespace Skeleton\Container\Ui\Web\Routes;
+namespace Blog\Ui\Web\Routes;
 
 use Illuminate\Contracts\Routing\Registrar;
 
 class Container
 {
     /**
-     * @param \Illuminate\Contracts\Routing\Registrar $router
+     * @param Registrar $router
      */
     public function map(Registrar $router)
     {

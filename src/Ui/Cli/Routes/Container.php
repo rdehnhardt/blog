@@ -1,6 +1,6 @@
 <?php
 
-namespace Skeleton\Container\Ui\Cli\Routes;
+namespace Blog\Ui\Cli\Routes;
 
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Console\Scheduling\Schedule;

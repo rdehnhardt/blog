@@ -1,5 +1,5 @@
 {
-  "name": "rdehnhardt/container",
+  "name": "rdehnhardt/blog",
   "license": "MIT",
   "authors": [
     {
@@ -8,17 +8,17 @@
     }
   ],
   "require": {
-    "rdehnhardt/skeleton": "6.0.x-dev"
+    "rdehnhardt/laravel-porto": "dev-master"
   },
   "autoload": {
     "psr-4": {
-      "Skeleton\\Container\\": "src/"
+      "Blog\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Skeleton\\Container\\ContainerServiceProvider"
+        "Blog\\Providers\\BlogServiceProvider"
       ]
     }
   }

@@ -1,6 +1,6 @@
 <?php
 
-namespace Skeleton\Container\Ui\Web\Controllers;
+namespace Blog\Ui\Web\Controllers;
 
 use App\Http\Controllers\Controller;
 
